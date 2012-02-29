@@ -4,7 +4,7 @@
 
 
 int main (int argc, char * const argv[]) {
-    // insert code here...
+    // insert code here...this is the main function, it creates a shuffled deck and begin the story
 	srand(time(NULL));
 	Deck deck1=Deck();
 	deck1.shuffle();
